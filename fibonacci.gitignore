@@ -1,0 +1,5 @@
+dm,cm=0,1
+
+while cm<50:
+    print(cm)
+    dm,cm = cm,dm+cm

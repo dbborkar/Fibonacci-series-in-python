@@ -1,0 +1,14 @@
+dm = input("enter the string: ")
+cm = dm[::-1]
+print(cm)
+
+Output :-
+enter the string: Edyoda
+adoydE
+                       Or Second Method
+
+dm=input("enter the string: ")
+cm=""
+for i in dm:
+    cm=i+cm
+print("Reversed string:",cm)

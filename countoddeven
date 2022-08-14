@@ -7,5 +7,5 @@ for i in numbers:
     else:    
         even+=1
     
+print("Number of odd numbers:",odd)
 print("Number of even numbers:",even)
-print("Number of odd numbers:",odd
